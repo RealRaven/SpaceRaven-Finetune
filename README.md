@@ -34,6 +34,7 @@ SpaceRaven-Finetune/
 │   ├── train_Qwen3-4B-Instruct-2507_sft.py
 │   ├── train_Qwen3-4B-Thinking-2507_sft.py
 │   ├── train_Qwen3.5-4B_sft.py
+│   ├── train_gemma-4-12B-it_thinking_stf.py
 │   └── train_phi-2_sft.py
 │
 ├── orpo/                         # ORPO Preference Alignment scripts
@@ -51,6 +52,7 @@ SpaceRaven-Finetune/
 
 | Model | Stage | Script |
 |-------|-------|--------|
+| Gemma-4-12B-it | SFT + ORPO (coming soon) | `train_gemma-4-12B-it_thinking_*.py` |
 | Ministral-3-3B-Reasoning-2512 | SFT + ORPO | `train_Ministral-3-3B-Reasoning-2512_*.py` |
 | Qwen3-4B-Thinking-2507 | SFT + ORPO | `train_Qwen3-4B-Thinking-2507_*.py` |
 | Qwen3.5-4B | SFT + ORPO | `train_Qwen3.5-4B_*.py` |
